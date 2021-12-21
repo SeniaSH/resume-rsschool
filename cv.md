@@ -16,7 +16,7 @@
 
 ### _Objective_
 
-My name is Arseniy, I'm studying to be a translator in Minsk. In addition to studying at the institute, I'm studying to become a frontend developer. I like site development very much. Also a knowledge of languages will help me in this. I started to learn frontend development in summer 2021. I have big plans and a lot of motivation to learn.
+My name is Arseniy I'm studying to be a translator in Minsk. In addition to studying at the institute, I'm studying to become a frontend developer. I like site development very much. Also a knowledge of languages will help me in this. I started to learn frontend development in summer 2021. I have big plans and a lot of motivation to learn.
 
 
 ***
