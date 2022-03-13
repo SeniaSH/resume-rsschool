@@ -387,6 +387,7 @@ align-items: center;
 
 
 .portfolio__content{
+    max-width: 50%;
     border-color: #FFF;
     border-radius: .5rem;
     overflow: hidden;
