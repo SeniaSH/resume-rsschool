@@ -4,33 +4,239 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV-Arseniy</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
-
+    <title>CV Arseniy</title>
 </head>
-
 <body>
-   <header class="l-header" id="header">
-       <nav class="nav bd-container">
-           <a href="#" class="nav__logo">Arseniy Shabanov</a>
-           <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                   <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                   <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                   <li class="nav__item"><a href="#service" class="nav__link">Services</a></li>
-                   <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                   <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-               </ul>
-           </div>
 
-           <div class="nav__toggle" id="nav-toggle">
-               <i class="bx bx-menu"></i>
-           </div>
-       </nav>
-       <script src="index.js"></script>
-   </header>
+    <a href="#" class="scrolltop show-scroll" id="scroll-top">
+        <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Arseniy Shabanov</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#qualification" class="nav__link">Qualification</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <spam class="home__greeting">Hello, My name is</spam>
+                    <h1 class="home__name">Arseniy Shabanov</h1>
+                    <span class="home__profession">Web Developer</span>
+                    <a download="" href="#" class="button button-light">Download CV</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class="bx bxl-discord"></i></a>
+                    <a href="https://www.instagram.com/etocenia/" class="home__social-icon"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://vk.com/idcenechka" class="home__social-icon"><i class="bx bxl-vk"></i></a>
+                </div>
+
+                <div class="home__img">
+                    <img src="https://sun9-42.userapi.com/impg/Ehu40zXl6t0NkaM6qbBePoMQcqfL6nPvak10lQ/hIMfncyxWlE.jpg?size=959x1280&quality=95&sign=cfd2ca59efbce90d2995055e8fd3b506&type=album" alt="myPhoto">
+                </div>
+
+            </div>
+        </section>
+
+
+<!--about-->
+        <section class="about section bd-container" id="about">
+            
+            <h2 class="section-title">Aboute me</h2>
+            <div class="about__container bd-grid">
+                <div class="about__data bd-grid">
+                    <p class="about__description"><span>My name is Arseniy, I'm 19 years old and an early stage front-end developer. I am studying in Minsk to become a interpreter, but apart from languages, I have also started to study programming, because I am interested in it, and knowledge of foreign languages will help me in this. I'm learning and discovering something new in web development every day.</span></p>
+                    
+                    
+
+                </div>
+                <img src="/assets/zur3h8ozPeU.jpg" alt="cv.md" class="about__img">
+
+            </div>
+        </section>
+
+        <!--qualifc-->
+        <section class="qualification section bd-container" id="qualification">
+            
+            <h2 class="section-title">Qualification</h2>
+
+            <div class="qualification__container bd-grid">
+                <div class="qualification__content">
+                    <h2 class="qualification__title">
+                        <i class="bx bx-briefcase-alt qualification__title-icon"></i>
+                        Work Experience
+                    </h2>
+                    <div class="bd-grid">
+                     
+                       
+                        <div class="qualification__data">
+                            <h3 class="qualification__area">Junior Front End Developer</h3>
+                            <div class="qualification__box">
+                                <span class="qualification__work">
+                                    <i class="bx bx-briefcase-alt qualification__icon"></i>
+                                   <a href="https://rs.school/">RS School</a> - Belarus
+                                </span>
+
+                                <span class="qualification__work">
+                                    <i class="bx bx-calendar-alt qualification__icon"></i>
+                                    2022
+                                </span>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+
+
+                <div class="qualification__content">
+                    <h2 class="qualification__title">
+                        <i class="bx bx-book-bookmark qualification__title-icon"></i>
+                        Education
+                    </h2>
+                    <div class="bd-grid">
+                        
+                       
+                        <div class="qualification__data">
+                            <h3 class="qualification__area">Interpreter</h3>
+                            <div class="qualification__box">
+                                <span class="qualification__work">
+                                    <i class="bx bx-book-alt qualification__icon"></i>
+                                    Busines Institute (Minsk)
+                                </span>
+
+                                <span class="qualification__work">
+                                    <i class="bx bx-calendar-alt qualification__icon"></i>
+                                    Sep 2019 - May 2025
+                                </span>
+                            </div>
+                        </div>
+                   
+                    </div>
+                </div>
+
+                <div class="qualification__content">
+                    <h2 class="qualification__title">
+                        <i class="bx bx-wink-tongue qualification__title-icon"></i>
+                        Languages
+                    </h2>
+                    <div class="bd-grid">
+                        
+                       
+                        <div class="qualification__data">
+                            <h3 class="qualification__area">English - B1</h3>
+                            <h3 class="qualification__area">French - A2</h3>
+                            <div class="qualification__box">
+
+                            </div>
+                        </div>
+                   
+                    </div>
+                </div>
+
+                <div class="qualification__content">
+                    <h2 class="qualification__title">
+                        <i class="bx bx-brain qualification__title-icon"></i>
+                        Skills
+                    </h2>
+                    <div class="bd-grid">
+                        
+                       
+                        <div class="qualification__data">
+                            <h3 class="qualification__area">HTML / CSS / JS</h3>
+                            <h3 class="qualification__area">Figma / GIT / Markdown</h3>
+                            <div class="qualification__box">
+                                
+
+                            </div>
+                        </div>
+                   
+                    </div>
+                </div>
+                
+            </div>
+
+            </section>
+<!--portfolio-->
+
+<section class="portfolio section bd-container" id="portfolio">
+    <h2 class="section-title">Portfolio</h2>
     
-</body>
+    <div class="portfolio__nav">
+    </div>
 
+    <div class="portfolio__container">
+        <div class="portfolio__content">
+            <a href="#"><img src="/assets/zur3h8ozPeU.jpg" alt="" class="portfolio__img"></a>
+            <div class="portfolio__data">
+                <span class="portfolio__subtitle">Web development</span>
+                <h2 class="portfolio__title">CV Markdown</h2>
+                
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+    <section class="contact section bd-container" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact__container bd-grid">
+            <div class="contact__content bd-grid">
+                
+                <div class="contact__box">
+                    <i class="bx bx-home contact__icon"></i>
+                    <h3 class="contact__title">Location</h3>
+                    <span class="contact__description">Minsk - Belarus</span>
+                </div>
+
+                <div class="contact__box">
+                    <i class="bx bx-phone contact__icon"></i>
+                    <h3 class="contact__title">Phone</h3>
+                    <span class="contact__description">+375-29-342-08-99</span>
+                </div>
+
+                <div class="contact__box">
+                    <i class="bx bx-envelope contact__icon"></i>
+                    <h3 class="contact__title">Email</h3>
+                    <span class="contact__description">arseniy.shabanov.18@gmail.com</span>
+                </div>
+
+           
+            </div>
+        </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container bd-container">
+            <p class="footer__description">Created by</p>
+            <h1 class="footer_title">Arseniy Shabanov</h1>
+            
+
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/%D0%B0%D1%80%D1%81%D0%B5%D0%BD%D0%B8%D0%B9-%D1%88%D0%B0%D0%B1%D0%B0%D0%BD%D0%BE%D0%B2-0836811b8/" class="footer__link"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/SeniaSH" class="footer__link"><i class="bx bxl-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
 </html>
