@@ -155,7 +155,7 @@ img{
  }
 
  .nav__link:hover{
-     color: var(--first-color-light);
+    color: var(--first-color-light);
  }
 
  .nav__logo, .nav__toggle{
